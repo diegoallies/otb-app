@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <nav className="nav">
       <Link href="/"><a className="nav__item active"><FontAwesomeIcon icon={faHome} /></a></Link>
-      <Link href="/explore"><a className="nav__item"><FontAwesomeIcon icon={faSearch} /></a></Link>
+      <Link href="/Explore"><a className="nav__item"><FontAwesomeIcon icon={faSearch} /></a></Link>
       <Link href="/create"><a className="nav__item"><FontAwesomeIcon icon={faPlusSquare} /></a></Link>
       <Link href="/notifications"><a className="nav__item"><FontAwesomeIcon icon={faBell} /></a></Link>
       <Link href="/profile"><a className="nav__item"><FontAwesomeIcon icon={faUser} /></a></Link>

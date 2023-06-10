@@ -30,6 +30,10 @@
   max-width: 40px;
   height: auto;
 }
+.post__image video {
+  width: 100%;
+  height: auto;
+}
 
 .post__userinfo {
   margin-left: 15px;

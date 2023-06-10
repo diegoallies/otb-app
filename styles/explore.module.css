@@ -1,0 +1,23 @@
+.search2 {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+  
+  .grid2 {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 10px;
+  }
+  
+  .post2 {
+    width: 100%;
+    height: auto;
+  }
+
+
+  .exploreImage { 
+    width: 100%;
+  }
+  
