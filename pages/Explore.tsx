@@ -1,16 +1,21 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Head from 'next/head';
 import styles from '../styles/Explore.module.css';
 
 const Explore = () => {
-  const [image1] = useState('https://picsum.photos/536/354');
-  const [image2] = useState('https://picsum.photos/536/354');
-  const [image3] = useState('https://picsum.photos/536/354');
-  const [image4] = useState('https://picsum.photos/536/354');
-  const [image5] = useState('https://picsum.photos/536/354');
-  const [image6] = useState('https://picsum.photos/536/354');
-  const [image7] = useState('https://picsum.photos/536/354');
-  const [image8] = useState('https://picsum.photos/536/354');
+  const [images, setImages] = useState([]);
+
+  useEffect(() => {
+    const fetchImages = async () => {
+      const images = Array(10).fill().map((_, index) => ({
+        url: `https://picsum.photos/536/354?random=${index}`,
+        large: Math.random() > 0.7
+      }));
+      setImages(images);
+    };
+
+    fetchImages();
+  }, []);
 
   return (
     <div>
@@ -20,16 +25,18 @@ const Explore = () => {
       </Head>
 
       <main>
-        <input className={styles.search} type="text" placeholder="Search..." />
-        <div className={styles.grid}>
-          <img src={image1} className={`styles.post exploreImage`} />
-          <img src={image2} className={`styles.post exploreImage`} />
-          <img src={image3} className={`styles.post exploreImage`} />
-          <img src={image4} className={`styles.post exploreImage`} />
-          <img src={image5} className={`styles.post exploreImage`} />
-          <img src={image6} className={`styles.post exploreImage`} />
-          <img src={image7} className={`styles.post exploreImage`} />
-          <img src={image8} className={`styles.post exploreImage`} />
+        <div className={styles.searchContainer}>
+          <input className={styles.searchInput} type="text" placeholder="Search..." />
+        </div>
+
+        <div className={styles.imageGrid}>
+          {images.map((image, index) => (
+            <img 
+              key={index} 
+              src={image.url} 
+              className={`${styles.image} ${image.large ? styles.large : ''}`}
+            />
+          ))}
         </div>
       </main>
     </div>

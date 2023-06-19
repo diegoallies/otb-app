@@ -6,7 +6,7 @@ const Layout = ({ children }) => {
   return (
     <div className="content">
       <TopNavbar /> {/* Add the TopNavbar component */}
-      <Navbar />
+      {/* <Navbar /> */}
       {children}
       <Footer />
     </div>

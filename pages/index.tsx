@@ -41,6 +41,171 @@ const HomePage = (): JSX.Element => {
         url: 'https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4',
       },
     },
+    {
+      name: 'Jane',
+      surname: 'Doe',
+      active: true,
+      streetName: 'Main',
+      streetCred: 4,
+      media: {
+        type: 'video',
+        url: 'https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4',
+      },
+    },
+    {
+      name: 'Jane',
+      surname: 'Doe',
+      active: true,
+      streetName: 'Main',
+      streetCred: 4,
+      media: {
+        type: 'video',
+        url: 'https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4',
+      },
+    },
+    {
+      name: 'Jane',
+      surname: 'Doe',
+      active: true,
+      streetName: 'Main',
+      streetCred: 4,
+      media: {
+        type: 'video',
+        url: 'https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4',
+      },
+    },
+    {
+      name: 'Jane',
+      surname: 'Doe',
+      active: true,
+      streetName: 'Main',
+      streetCred: 4,
+      media: {
+        type: 'video',
+        url: 'https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4',
+      },
+    },
+    {
+      name: 'Jane',
+      surname: 'Doe',
+      active: true,
+      streetName: 'Main',
+      streetCred: 4,
+      media: {
+        type: 'video',
+        url: 'https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4',
+      },
+    },
+    {
+      name: 'Jane',
+      surname: 'Doe',
+      active: true,
+      streetName: 'Main',
+      streetCred: 4,
+      media: {
+        type: 'video',
+        url: 'https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4',
+      },
+    },
+    {
+      name: 'Jane',
+      surname: 'Doe',
+      active: true,
+      streetName: 'Main',
+      streetCred: 4,
+      media: {
+        type: 'video',
+        url: 'https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4',
+      },
+    },
+    {
+      name: 'Jane',
+      surname: 'Doe',
+      active: true,
+      streetName: 'Main',
+      streetCred: 4,
+      media: {
+        type: 'video',
+        url: 'https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4',
+      },
+    },
+    {
+      name: 'Jane',
+      surname: 'Doe',
+      active: true,
+      streetName: 'Main',
+      streetCred: 4,
+      media: {
+        type: 'video',
+        url: 'https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4',
+      },
+    },
+    {
+      name: 'Jane',
+      surname: 'Doe',
+      active: true,
+      streetName: 'Main',
+      streetCred: 4,
+      media: {
+        type: 'video',
+        url: 'https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4',
+      },
+    },
+    {
+      name: 'Jane',
+      surname: 'Doe',
+      active: true,
+      streetName: 'Main',
+      streetCred: 4,
+      media: {
+        type: 'video',
+        url: 'https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4',
+      },
+    },
+    {
+      name: 'Jane',
+      surname: 'Doe',
+      active: true,
+      streetName: 'Main',
+      streetCred: 4,
+      media: {
+        type: 'video',
+        url: 'https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4',
+      },
+    },
+    {
+      name: 'Jane',
+      surname: 'Doe',
+      active: true,
+      streetName: 'Main',
+      streetCred: 4,
+      media: {
+        type: 'video',
+        url: 'https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4',
+      },
+    },
+    {
+      name: 'Jane',
+      surname: 'Doe',
+      active: true,
+      streetName: 'Main',
+      streetCred: 4,
+      media: {
+        type: 'video',
+        url: 'https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4',
+      },
+    },
+    {
+      name: 'Jane',
+      surname: 'Doe',
+      active: true,
+      streetName: 'Main',
+      streetCred: 4,
+      media: {
+        type: 'video',
+        url: 'https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4',
+      },
+    },
     // add more users if you want
   ]);
 
