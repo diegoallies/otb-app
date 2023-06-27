@@ -10,7 +10,7 @@ const Footer = () => {
       <Link href="/Explore"><a className="nav__item"><FontAwesomeIcon icon={faSearch} /></a></Link>
       <Link href="/create"><a className="nav__item"><FontAwesomeIcon icon={faPlusSquare} /></a></Link>
       <Link href="/challenge"><a className="nav__item"><FontAwesomeIcon icon={faBell} /></a></Link>
-      <Link href="/profile"><a className="nav__item"><FontAwesomeIcon icon={faUser} /></a></Link>
+      <Link href="/Profile"><a className="nav__item"><FontAwesomeIcon icon={faUser} /></a></Link>
     </nav>
   );
 }

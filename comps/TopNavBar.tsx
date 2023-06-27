@@ -54,7 +54,7 @@ const Navbar = () => {
             </Link>
           </li>
           <li className={styles.menuItem}>
-            <Link href="/profile">
+            <Link href="/Profile">
               <a>Profile</a>
             </Link>
           </li>

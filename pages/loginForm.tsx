@@ -15,7 +15,7 @@ const LoginForm = () => {
   const handleLogin = async (e) => {
     e.preventDefault();
 
-    const response = await fetch('../api/hello');
+    const response = await fetch('../api/users');
     const users = await response.json();
 
     const user = users.find(user => user.username === username && user.password === password);
